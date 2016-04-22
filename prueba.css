@@ -1,0 +1,39 @@
+body {background-color: #2E2E2E;}
+#bar {padding-top: 16px; border: 16px; color: white; margin: 0 0 0.4em; }
+#container {padding-top: 450px;}
+#gallery { float: left; width: 65%; min-height: 12em; }
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li img { width: 100%; cursor: move; }
+
+#trash { float: right; width: 16%; min-height: 8em; padding: 1%;}
+#trash h4 { line-height: 16px; margin: 0 0 0.4em;}
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none;}
+
+#date {
+  color: ghostwhite;
+  cursor: pointer;
+  float: right;
+}
+
+#calendar {
+  float: right;
+}
+
+#menu {
+  float: left;
+}
+
+.ui-menu {width: 80px;
+          position: bottom;
+          margin-left: 5px;
+}
+
+.submenu {width: 100px;
+          margin-left: 15px;
+}
+.submenu li {font-size: 10px;
+}
